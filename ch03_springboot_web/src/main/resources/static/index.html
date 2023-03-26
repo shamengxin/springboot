@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+</head>
+<body>
+<h1>欢迎您！！！</h1>
+<form action="/user" method="get">
+	<input type="submit" value="REST-GET 提交">
+</form>
+<form action="/user" method="post">
+	<input type="submit" value="REST-POST 提交">
+</form>
+<form action="/user" method="post">
+	<input type="hidden" name="_method" value="put">
+	<input type="submit" value="REST-PUT 提交">
+</form>
+<form action="/user" method="post">
+	<input type="hidden" name="_method" value="delete">
+	<input type="hidden" name="_m" value="delete">
+	<input type="submit" value="REST-DELETE 提交">
+</form>
+<hr>
+测试基本注解：
+<ul>
+	<a href="car/3/owner/zhangsan?age=18&inters=basketbll&inters=game">/car/{id}/owner/{username}</a>
+</ul>
+@RequestBody
+<form action="/save" method="post">
+	用户名：<input name="username"/><br>
+	密码：<input name="password"/><br>
+	<input type="submit" value="提交"/>
+</form>
+<hr>
+<a href="/cars/sell;low=34;brand=byd,audi,yd">@MatrixVariable(矩阵变量)</a><br>
+<a href="/cars/sell;low=34;brand=byd；brand=audi；brand=yd">@MatrixVariable(矩阵变量)</a><br>
+<a href="/boss/1;age=20/2;age=10">@MatrixVariable(矩阵变量)/boss/{bossId}/{empId}</a>
+<hr>
+测试封装POJO:
+<form action="/saveuser" method="post">
+	姓名：<input name="userName" value="zhangsan"><br>
+	年龄：<input name="age" value="18"><br>
+	生日：<input name="brith" value="2019/2/1"><br>
+<!--	宠物姓名：<input name="pet.name" value="阿猫"><br>-->
+<!--	宠物年龄：<input name="pet.age" value="5"><br>-->
+	宠物：<input name="pet" value="阿猫,3">
+	<input type="submit" value="保存"><br>
+</form>
+</body>
+</html>
