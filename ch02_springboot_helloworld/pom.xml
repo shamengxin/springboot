@@ -36,7 +36,6 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-<<<<<<< HEAD
 
 		<dependency>
 			<groupId>org.projectlombok</groupId>
@@ -48,8 +47,6 @@
 			<artifactId>spring-boot-configuration-processor</artifactId>
 			<optional>true</optional>
 		</dependency>
-=======
->>>>>>> origin/main
 	</dependencies>
 
 	<build>
@@ -57,7 +54,6 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-<<<<<<< HEAD
 				<configuration>
 					<excludes>
 						<exclude>
@@ -67,9 +63,6 @@
 					</excludes>
 				</configuration>
 				<version>2.3.4.RELEASE</version>
-=======
-				<version>3.0.5</version>
->>>>>>> origin/main
 			</plugin>
 		</plugins>
 	</build>
