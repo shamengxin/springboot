@@ -10,6 +10,15 @@
         <option value="$PROJECT_DIR$/ch03_springboot_web/pom.xml" />
       </list>
     </option>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/ch01_springbooy_helloworld/pom.xml" />
+        <option value="$PROJECT_DIR$/ch01_springboot_helloworld/pom.xml" />
+        <option value="$PROJECT_DIR$/ch02_springboot_helloworld/pom.xml" />
+      </list>
+    </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
