@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ch03_springboot_web" />
+        <module name="ch01_springboot_helloworld" />
         <module name="ch02_springboot_helloworld" />
       </profile>
     </annotationProcessing>
@@ -19,7 +20,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="ch01_springboot_helloworld" options="" />
+      <module name="ch01_springboot_helloworld" options="-parameters" />
       <module name="ch02_springboot_helloworld" options="-parameters" />
       <module name="ch03_springboot_web" options="-parameters" />
     </option>
