@@ -19,7 +19,7 @@ person:
     weight: 44.3
   allPets:
     sick:
-      - {name: 阿狗,weight: 44.9}
+      - {name: 阿狗,weight: }
       - name: 阿猫
         weight: 44.3
       - name: 虫虫
