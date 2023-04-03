@@ -30,6 +30,15 @@ spring:
           enabled: true
           config:
             drop-table-allow: false
+  boot:
+    admin:
+      client:
+        url: http://localhost:8888
+        instance:
+          prefer-ip: true
+
+  application:
+    name: ch04_springboot_web_admin
 
 
 mybatis:
@@ -61,7 +70,9 @@ management:
 
     metrics:
       enabled: true
-
 info:
   appName: boot-admin
   appVersion: 1.0.0
+  mavenProjectName: ch04_springboot_web_admin
+  mavenProjectVersion: 0.0.1-SNAPSHOT
+

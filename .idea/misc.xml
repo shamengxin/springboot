@@ -10,6 +10,8 @@
         <option value="$PROJECT_DIR$/ch03_springboot_web/pom.xml" />
         <option value="$PROJECT_DIR$/ch04_springboot_web_admin/pom.xml" />
         <option value="$PROJECT_DIR$/redis7_study/pom.xml" />
+        <option value="$PROJECT_DIR$/ch05_springboot_adminserver/pom.xml" />
+        <option value="$PROJECT_DIR$/ch06_springboot_profile/pom.xml" />
       </list>
     </option>
   </component>

@@ -8,10 +8,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ch04_springboot_web_admin" />
+        <module name="ch01_springboot_helloworld" />
         <module name="ch03_springboot_web" />
         <module name="ch02_springboot_helloworld" />
         <module name="redis7_study" />
-        <module name="ch01_springboot_helloworld" />
+        <module name="ch05_springboot_adminserver" />
+        <module name="ch06_springboot_profile" />
       </profile>
     </annotationProcessing>
   </component>
@@ -21,6 +23,8 @@
       <module name="ch02_springboot_helloworld" options="-parameters" />
       <module name="ch03_springboot_web" options="-parameters" />
       <module name="ch04_springboot_web_admin" options="-parameters" />
+      <module name="ch05_springboot_adminserver" options="-parameters" />
+      <module name="ch06_springboot_profile" options="-parameters" />
       <module name="redis7_study" options="-parameters" />
     </option>
   </component>

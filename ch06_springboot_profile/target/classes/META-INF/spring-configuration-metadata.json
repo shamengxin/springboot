@@ -1,0 +1,37 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "com.shamengxin.springboot.bean.Boos",
+      "sourceType": "com.shamengxin.springboot.bean.Boos"
+    },
+    {
+      "name": "person",
+      "type": "com.shamengxin.springboot.bean.Worker",
+      "sourceType": "com.shamengxin.springboot.bean.Worker"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.shamengxin.springboot.bean.Boos"
+    },
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.shamengxin.springboot.bean.Worker"
+    },
+    {
+      "name": "person.name",
+      "type": "java.lang.String",
+      "sourceType": "com.shamengxin.springboot.bean.Boos"
+    },
+    {
+      "name": "person.name",
+      "type": "java.lang.String",
+      "sourceType": "com.shamengxin.springboot.bean.Worker"
+    }
+  ],
+  "hints": []
+}

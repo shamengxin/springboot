@@ -1,12 +1,26 @@
 {
   "groups": [
     {
-      "name": "spring.datasource",
-      "type": "javax.sql.DataSource",
-      "sourceType": "com.shamengxin.springboot.Config.MyDataSourceConfig",
-      "sourceMethod": "dataSource()"
+      "name": "management.endpoint.myservice",
+      "type": "com.shamengxin.springboot.endpoint.MyServiceEndPoint",
+      "sourceType": "com.shamengxin.springboot.endpoint.MyServiceEndPoint"
     }
   ],
-  "properties": [],
+  "properties": [
+    {
+      "name": "management.endpoint.myservice.cache.time-to-live",
+      "type": "java.time.Duration",
+      "description": "Maximum time that a response can be cached.",
+      "sourceType": "com.shamengxin.springboot.endpoint.MyServiceEndPoint",
+      "defaultValue": "0ms"
+    },
+    {
+      "name": "management.endpoint.myservice.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Whether to enable the myservice endpoint.",
+      "sourceType": "com.shamengxin.springboot.endpoint.MyServiceEndPoint",
+      "defaultValue": true
+    }
+  ],
   "hints": []
 }

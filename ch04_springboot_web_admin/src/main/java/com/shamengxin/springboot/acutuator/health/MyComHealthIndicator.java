@@ -1,4 +1,4 @@
-package com.shamengxin.springboot.health;
+package com.shamengxin.springboot.acutuator.health;
 
 import org.springframework.boot.actuate.health.AbstractHealthIndicator;
 import org.springframework.boot.actuate.health.Health;
